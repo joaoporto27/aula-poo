@@ -1,10 +1,16 @@
+//Exercício 1
+
 const livroObjeto = {
-    Livro: "O Pequeno príncipe",
-    Autor: "Antoine de Saint-Exupéry",
-    Ano: "6 de abril de 1943",
+    livro: "O Pequeno príncipe",
+    autor: "Antoine de Saint-Exupéry",
+    ano: "6 de abril de 1944",
 };
 
-console.log(livroObjeto);
+livroObjeto.ano = "6 de abril de 1943"
+
+console.log(livroObjeto)
+
+//Exercício 2
 
 const filmeObjeto = new Object() 
 
@@ -14,13 +20,17 @@ filmeObjeto.lancamento = "1 de fevereiro de 2013"
 
 console.log(filmeObjeto);
 
+//Exercício 3
+
 const alunoObjeto = new Object()
 
 alunoObjeto.nome = "Luiz"
 alunoObjeto.turma = "2TDS1"
-alunoObjeto.nota = 9
+alunoObjeto.nascimento = 2007
 
 console.log(alunoObjeto);
+    
+//Exercício 4
 
 const cachorroObjeto = new Object()
 
@@ -30,6 +40,8 @@ cachorroObjeto.cor = "Caramelo"
 
 console.log(cachorroObjeto);
 
+//Exercício 5
+
 const carroObjeto = new Object()
 
 carroObjeto.cor = "Cinza"
@@ -37,6 +49,8 @@ carroObjeto.modelo = "Cadillac CT6"
 carroObjeto.ano = "2016"
 
 console.log(carroObjeto);
+
+//Exercício 6
 
 produtoObjeto = new Object()
 
